@@ -78,7 +78,7 @@ const Todos = () => {
         ))}
       </ul>
     </div>
-    <Button onClick={handleOpen}>Open modal</Button>
+    {/* <Button onClick={handleOpen}>Open modal</Button> */}
       <Modal
         open={open}
         onClose={handleClose}
